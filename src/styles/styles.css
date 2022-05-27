@@ -49,3 +49,15 @@ main.container>section.calculator__content>ul.calculator__buttons {
     gap: 0.7rem;
     margin: 25px 0;
 }
+
+ul.calculator__buttons>li {
+    background-color: #58595a;
+    color: #fcfcf9;
+    padding: 10px;
+    width: 4.3rem;
+    height: 3.7rem;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
