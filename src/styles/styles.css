@@ -41,3 +41,11 @@ span.number__field__content {
     bottom: 10px;
     color: rgb(0, 0, 0);
 }
+
+main.container>section.calculator__content>ul.calculator__buttons {
+    display: grid;
+    grid-template-areas:
+        "li li li li";
+    gap: 0.7rem;
+    margin: 25px 0;
+}
