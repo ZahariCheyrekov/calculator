@@ -61,3 +61,16 @@ ul.calculator__buttons>li {
     border-radius: 0.3rem;
     cursor: pointer;
 }
+
+ul.calculator__buttons>li.large__text__button {
+    font-size: 24px;
+    background-color: #130d0e98;
+}
+
+ul.calculator__buttons>li.small__text__button {
+    font-size: 27px;
+}
+
+ul.calculator__buttons>li.equal {
+    background-color: rgb(255, 90, 12);
+}
