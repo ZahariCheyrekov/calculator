@@ -1,14 +1,14 @@
 const numberField = document.querySelector('.number__field__content');
 const buttons = document.querySelectorAll('.calculator__buttons li');
 
-window.addEventListener('DOMContentLoad', calculate);
+window.addEventListener('DOMContentLoad', start);
 
-function calculate() {
+function start() {
     buttons.forEach((btn) => {
-        btn.addEventListener('click', performAction);
+        btn.addEventListener('click', calculate);
     });
 }
 
-function performAction() {
-    
+function calculate() {
+
 }
