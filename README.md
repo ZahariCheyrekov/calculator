@@ -4,9 +4,20 @@ You can visit this project from here: https://zaharicheyrekov.github.io/Calculat
 
 # About this project 
 
-I'm pretty happy about this project. I really like how it looks and how I made it. The colors are great and they go well together. They are not too boring and also not too shiny. Decided to use css flex-box model for positioning the main container. 
+I'm pretty happy about this project. I really like how it looks and how I made it. The colors are great and they go well together. They are not too boring and also not too shiny. Decided to use css flex-box model for positioning the body. 
 
-
+```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 233, 231, 0.2);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+```
 
 The grid layout was used for the buttons section and it went pretty good. 
 
