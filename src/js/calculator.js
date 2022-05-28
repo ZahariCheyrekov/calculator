@@ -1,7 +1,7 @@
 const numberField = document.querySelector('.number__field__content');
-const buttons = document.querySelectorAll('.calculator__buttons li');
+const buttons = Array.from(document.querySelectorAll('.calculator__buttons li'));
 
-window.addEventListener('DOMContentLoad', start);
+window.addEventListener('DOMContentLoaded', start);
 
 function start() {
     buttons.forEach((btn) => {
@@ -10,5 +10,5 @@ function start() {
 }
 
 function calculate() {
-
+  
 }

@@ -72,6 +72,15 @@ ul.calculator__buttons>li.small__text__button {
     font-size: 27px;
 }
 
+ul.calculator__buttons>li.multiply {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+ul.calculator__buttons>li.dot {
+    font-size: 40px;
+}
+
 ul.calculator__buttons>li.equal {
     background-color: rgb(255, 90, 12);
 }
