@@ -2,6 +2,15 @@
 
 You can visit this project from here: https://zaharicheyrekov.github.io/Calculator/
 
+# About this project 
+
+I'm pretty happy about this project. I really like how it looks and how I made it. The colors are great and they go well together. They are not too boring and also not too shiny. Decided to use css flex-box model for positioning the main container. 
+
+
+
+The grid layout was used for the buttons section and it went pretty good. 
+
+
 # Light Theme
 
 ![calculator-laptop-light-theme](https://user-images.githubusercontent.com/95768526/170833572-2e114c92-e364-410d-8fa5-286f43327498.png)
