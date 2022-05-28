@@ -74,3 +74,16 @@ ul.calculator__buttons>li.small__text__button {
 ul.calculator__buttons>li.equal {
     background-color: rgb(255, 90, 12);
 }
+
+section.theme {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+span.dark__light__icon>i.fa-sun {
+    display: none;
+    color: rgb(236, 236, 19);
+}
