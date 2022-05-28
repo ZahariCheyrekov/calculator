@@ -13,21 +13,6 @@ body {
     overflow: hidden;
 }
 
-main.container {
-    height: 500px;
-    width: 350px;
-    color: #fafaf7;
-    background-color: #282828;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-        rgba(0, 0, 0, 0.12) 0px -12px 30px,
-        rgba(0, 0, 0, 0.12) 0px 4px 6px,
-        rgba(0, 0, 0, 0.17) 0px 12px 13px,
-        rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
 section.number__field {
     position: relative;
     background-color: rgb(145, 175, 120);
@@ -47,82 +32,4 @@ span.number__field__content {
     right: 10px;
     bottom: 10px;
     color: rgb(0, 0, 0);
-}
-
-main.container>section.calculator__content>ul.calculator__buttons {
-    display: grid;
-    grid-template-areas:
-        "li li li li";
-    gap: 0.7rem;
-    margin: 25px 0;
-}
-
-ul.calculator__buttons>li {
-    background-color: #58595a;
-    color: #fcfcf9;
-    padding: 10px;
-    width: 4.3rem;
-    height: 3.7rem;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 0.3rem;
-    cursor: pointer;
-}
-
-ul.calculator__buttons>li.large__text__button {
-    font-size: 24px;
-    background-color: #130d0e98;
-}
-
-ul.calculator__buttons>li.small__text__button {
-    font-size: 27px;
-}
-
-ul.calculator__buttons>li.multiply {
-    line-height: 60px;
-    font-size: 40px;
-}
-
-ul.calculator__buttons>li.dot {
-    font-size: 40px;
-}
-
-ul.calculator__buttons>li.equal {
-    background-color: rgb(255, 90, 12);
-}
-
-section.calculator__content>ul.calculator__buttons>li.large__text__button:hover {
-    background-color: #130d0e;
-}
-
-section.calculator__content>ul.calculator__buttons>li.small__text__button:not(.equal):hover {
-    background-color: #3c3c3c;
-}
-
-section.calculator__content>ul.calculator__buttons>li.small__text__button.equal:hover {
-    background-color: rgb(192, 61, 0);
-}
-
-section.theme {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-ul.dark__light__icon>li.sun__icon>i.fa-sun {
-    color: rgb(255, 255, 255);
-}
-
-body.dark__theme {
-    background-color: #282828;
-}
-
-main.container.dark__theme {
-    box-shadow: rgba(241, 241, 241, 0.142) 0px 54px 55px,
-        rgba(241, 241, 241, 0.142) 0px -12px 30px,
-        rgba(241, 241, 241, 0.142) 0px 4px 6px,
-        rgba(241, 241, 241, 0.142) 0px 12px 13px,
-        rgba(241, 241, 241, 0.142) 0px -3px 5px;
 }

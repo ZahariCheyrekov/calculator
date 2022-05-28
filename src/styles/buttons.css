@@ -1,0 +1,53 @@
+main.container>section.calculator__content>ul.calculator__buttons {
+    display: grid;
+    grid-template-areas:
+        "li li li li";
+    gap: 0.7rem;
+    margin: 25px 0;
+}
+
+ul.calculator__buttons>li {
+    background-color: #58595a;
+    color: #fcfcf9;
+    padding: 10px;
+    width: 4.3rem;
+    height: 3.7rem;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+ul.calculator__buttons>li.large__text__button {
+    font-size: 24px;
+    background-color: #130d0e98;
+}
+
+ul.calculator__buttons>li.small__text__button {
+    font-size: 27px;
+}
+
+ul.calculator__buttons>li.multiply {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+ul.calculator__buttons>li.dot {
+    font-size: 40px;
+}
+
+ul.calculator__buttons>li.equal {
+    background-color: rgb(255, 90, 12);
+}
+
+section.calculator__content>ul.calculator__buttons>li.large__text__button:hover {
+    background-color: #130d0e;
+}
+
+section.calculator__content>ul.calculator__buttons>li.small__text__button:not(.equal):hover {
+    background-color: #3c3c3c;
+}
+
+section.calculator__content>ul.calculator__buttons>li.small__text__button.equal:hover {
+    background-color: rgb(192, 61, 0);
+}

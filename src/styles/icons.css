@@ -1,0 +1,15 @@
+section.theme {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul.dark__light__icon>li.sun__icon>i.fa-sun {
+    color: rgb(255, 255, 255);
+}
+
+body.dark__theme {
+    background-color: #282828;
+}
