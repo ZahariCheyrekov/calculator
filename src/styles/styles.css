@@ -83,7 +83,10 @@ section.theme {
     cursor: pointer;
 }
 
-span.dark__light__icon>i.fa-sun {
-    display: none;
-    color: rgb(236, 236, 19);
+ul.dark__light__icon>li.sun__icon>i.fa-sun {
+    color: rgb(255, 255, 255);
+}
+
+body.dark__theme {
+    background-color: #282828;
 }
