@@ -14,6 +14,8 @@ You can visit this project from here: https://zaharicheyrekov.github.io/Calculat
 
 ## Light Theme
 
-![calculator-laptop-dark-theme](https://user-images.githubusercontent.com/95768526/170833623-75926628-47bd-442f-acd1-310a857b1346.png)
+![calculator-phone-light-theme](https://user-images.githubusercontent.com/95768526/170833669-3a8156e0-d212-4152-97be-85fe43932fec.png)
 
-## Dark Theme![calculator-phone-dark-theme](https://user-images.githubusercontent.com/95768526/170833628-7b9c3bc3-4e8a-49e6-ad99-218536552172.png)
+## Dark Theme
+
+![calculator-phone-dark-theme](https://user-images.githubusercontent.com/95768526/170833676-b83cffb5-83ae-4bec-8ead-e956453254fd.png)
