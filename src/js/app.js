@@ -1,4 +1,5 @@
 const body = document.querySelector('body');
+const mainContainer = document.querySelector('.container');
 const icons = document.querySelectorAll('.dark__light__icon li');
 
 window.addEventListener('DOMContentLoaded', start);
@@ -15,13 +16,24 @@ function changeTheme() {
 
     icons.forEach((icon) => {
         icon.addEventListener('click', () => {
-            moonIcon.style.display = moonIcon.style.display == ''
-                ? moonIcon.style.display = 'none'
-                : moonIcon.style.display = '';
 
-            sunIcon.style.display = sunIcon.style.display == ''
-                ? sunIcon.style.display = 'none'
-                : sunIcon.style.display = '';
+            if (moonIcon.style.display = moonIcon.style.display == '') {
+                moonIcon.style.display = 'none';
+            } else {
+                moonIcon.style.display = '';
+                body.classList.remove('dark__theme');
+                mainContainer.classList.remove('dark__theme');
+            }
+
+            if (sunIcon.style.display = sunIcon.style.display == '') {
+                sunIcon.style.display = 'none';
+            } else {
+                sunIcon.style.display = '';
+                body.classList.add('dark__theme');
+                mainContainer.classList.add('dark__theme');
+            }
+
+            body.style.transition = '2s';
         });
     });
 }

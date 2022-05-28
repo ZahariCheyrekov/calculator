@@ -90,3 +90,11 @@ ul.dark__light__icon>li.sun__icon>i.fa-sun {
 body.dark__theme {
     background-color: #282828;
 }
+
+main.container.dark__theme {
+    box-shadow: rgba(241, 241, 241, 0.142) 0px 54px 55px,
+        rgba(241, 241, 241, 0.142) 0px -12px 30px,
+        rgba(241, 241, 241, 0.142) 0px 4px 6px,
+        rgba(241, 241, 241, 0.142) 0px 12px 13px,
+        rgba(241, 241, 241, 0.142) 0px -3px 5px;
+}
