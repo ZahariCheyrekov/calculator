@@ -20,13 +20,13 @@ function changeTheme() {
             if (icon.classList.contains('moon__icon')) {
                 body.classList.add('dark__theme');
                 mainContainer.classList.add('dark__theme');
-                moonIcon.style.display = 'none'
+                moonIcon.style.display = 'none';
                 sunIcon.style.display = '';
-            
+
             } else if (icon.classList.contains('sun__icon')) {
                 body.classList.remove('dark__theme');
                 mainContainer.classList.remove('dark__theme');
-                moonIcon.style.display = ''
+                moonIcon.style.display = '';
                 sunIcon.style.display = 'none';
             }
 

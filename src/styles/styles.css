@@ -76,6 +76,18 @@ ul.calculator__buttons>li.equal {
     background-color: rgb(255, 90, 12);
 }
 
+section.calculator__content>ul.calculator__buttons>li.large__text__button:hover {
+    background-color: #130d0e;
+}
+
+section.calculator__content>ul.calculator__buttons>li.small__text__button:not(.equal):hover {
+    background-color: #3c3c3c;
+}
+
+section.calculator__content>ul.calculator__buttons>li.small__text__button.equal:hover {
+    background-color: rgb(192, 61, 0);
+}
+
 section.theme {
     position: absolute;
     top: 20px;
