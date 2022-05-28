@@ -17,20 +17,17 @@ function changeTheme() {
     icons.forEach((icon) => {
         icon.addEventListener('click', () => {
 
-            if (moonIcon.style.display = moonIcon.style.display == '') {
-                moonIcon.style.display = 'none';
-            } else {
-                moonIcon.style.display = '';
-                body.classList.remove('dark__theme');
-                mainContainer.classList.remove('dark__theme');
-            }
-
-            if (sunIcon.style.display = sunIcon.style.display == '') {
-                sunIcon.style.display = 'none';
-            } else {
-                sunIcon.style.display = '';
+            if (icon.classList.contains('moon__icon')) {
                 body.classList.add('dark__theme');
                 mainContainer.classList.add('dark__theme');
+                moonIcon.style.display = 'none'
+                sunIcon.style.display = '';
+            
+            } else if (icon.classList.contains('sun__icon')) {
+                body.classList.remove('dark__theme');
+                mainContainer.classList.remove('dark__theme');
+                moonIcon.style.display = ''
+                sunIcon.style.display = 'none';
             }
 
             body.style.transition = '2s';
