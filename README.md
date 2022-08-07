@@ -26,7 +26,7 @@ main.container>section.calculator__content>ul.calculator__buttons {
     grid-template-areas:
         "li li li li";
     gap: 0.7rem;
-    margin: 25px 0;
+    margin: 25px 0; 
 }
 ```
 
